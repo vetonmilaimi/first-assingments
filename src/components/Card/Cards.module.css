@@ -5,5 +5,19 @@
 
 .cards>* {
     flex: 29%;
-    margin: 5px;
+    /* margin: 6px; */
+    padding: 5px;
+}
+
+@media screen and (max-width: 550px) {
+    .cards>* {
+        flex: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .cards>* {
+        flex: 45%;
+        /* margin: 1px; */
+    }
 }

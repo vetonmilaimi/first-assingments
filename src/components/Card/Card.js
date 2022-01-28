@@ -22,7 +22,7 @@ const Card = (props) => {
                 <p className={classes.name}>{props.name}</p>
             </div>
             <p className={classes.description}>{props.description}</p>
-            <Button name="Download" type="button" />
+            <Button name="Download" type="button" className={classes.btn} />
         </div>
     );
 };
